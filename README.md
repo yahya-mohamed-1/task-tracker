@@ -1,4 +1,5 @@
-Welcome to Task Tracker App
+
+<h1>$${\color{yellow}Welcome \space to \space Task \space Tracker \space App:}$$</h1>
 
 This is a simple React app where users can add, complete, and remove tasks. This app will help users keep track of their daily to-dos. It uses React state to manage tasks and their statuses.
 
@@ -22,7 +23,7 @@ Its main features include:
 > The app also has a "Clear Completed" button that removes all tasks that are marked as completed.
 > The app aslo displays the message "No tasks left!" when there are no tasks in the list.
 
-<h1>$${\color{yellow}Use \space \space the \space example \space workflow \space below \space to \space confirm \space that \space the \space app \space works \space fine:}$$</h1>
+<h3>$${\color{yellow}Use \space \space the \space example \space workflow \space below \space to \space confirm \space that \space the \space app \space works \space fine:}$$</h3>
 1. The app has the text "No tasks left!" in the list section when the app is initially launched.
 2. The user types "Buy groceries" in the input field and clicks "Add Task."
 3. The task "Buy groceries" is added to the list with an unchecked checkbox and a delete button, and the initial "No tasks left!" text disappears.
