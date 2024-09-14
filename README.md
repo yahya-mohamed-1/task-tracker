@@ -1,5 +1,4 @@
-
-<h1>$${\color{yellow}Welcome \space to \space Task \space Tracker \space App:}$$</h1>
+<h1>$${\color{yellow}Welcome \space to \space Task \space Tracker}$$</h1>
 
 This is a simple React app where users can add, complete, and remove tasks. This app will help users keep track of their daily to-dos. It uses React state to manage tasks and their statuses.
 
