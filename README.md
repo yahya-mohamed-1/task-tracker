@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Welcome to Task Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React app where users can add, complete, and remove tasks. This app will help users keep track of their daily to-dos. It uses React state to manage tasks and their statuses.
 
-## Available Scripts
+Its main features include:
 
-In the project directory, you can run:
+1. Input Field and Add Task Button:
+> It has an input field where the user can type a new task and a button to add the task to a list.
+> When the user clicks the "Add Task" button, the new task is added to the list of tasks, and the input field is cleared.
 
-### `npm start`
+2. Display List of Tasks:
+> All the tasks are displayed in a list, each with a checkbox and a delete button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Complete Task:
+> Each task in the list has a checkbox which when checked crosses out the task. This is visually indicated by a line-through style.
+> When the checkbox is unchecked, the task is marked as incomplete again by removing the line-through style.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Delete Task:
+> Each task has a delete button which when clicked removes the task from the list.
 
-### `npm test`
+5. Clear All Completed Tasks:
+> The app also has a "Clear Completed" button that removes all tasks that are marked as completed.
+> The app aslo displays the message "No tasks left!" when there are no tasks in the list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+// Use the Example Workflow below to confirm that the app works fine:
+1. The app has the text "No tasks left!" in the list section when the app is initially launched.
+2. The user types "Buy groceries" in the input field and clicks "Add Task."
+3. The task "Buy groceries" is added to the list with an unchecked checkbox and a delete button, and the initial "No tasks left!" text disappears.
+4. The user marks the task as completed, and the task is visually updated (i.e., with a line-through).
+5. The user adds another task, "Read a book," which is added below the previous one.
+6. The user clicks "Clear Completed," and the first task is removed, leaving only the incomplete tasks.
+7. Clicking the "Delete" button that corresponds to the remaining "Read a book" task removes the task from the list, and the "No tasks left!" text reappears in the list section.
 
-### `npm run build`
+Note:
+1. This is a simple implementation and does not include any error checking or validation. It is intended to demonstrate the basic functionality of a task tracker app. 
+2. Furthermore, it does not persist data across page reloads. For a real-world application, you would need to use a database or local storage to persist data.
+3. The app can be restructured in multiple other  ways to improve its functionality and user experience, hence one is NOT limited to a single component as portrayed in this example.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app was made with ❤️ by <a href="https://github.com/yahya-mohamed-1" target="_blank">Yahya Mohamed</a>
